@@ -1,9 +1,10 @@
 {
   "name": "cms-electron",
+  "productName": "cms-electron",
   "version": "0.0.0",
   "description": "An Electron application with React and TypeScript",
   "main": "./out/main/index.js",
-  "author": "example.com",
+  "author": "Emanuel barbosa silva",
   "homepage": "https://www.electronjs.org",
   "scripts": {
     "format": "prettier --write .",
