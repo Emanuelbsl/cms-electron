@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+/* reset 
+button,
+fieldset,
+input {
+  all: unset;
+}*/
+
+html {
+    overflow: hidden;
+}

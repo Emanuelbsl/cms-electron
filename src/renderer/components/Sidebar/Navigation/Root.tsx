@@ -1,0 +1,14 @@
+import { ReactNode } from 'react'
+
+interface RootProps {
+  children: ReactNode
+}
+
+export function Root(props: RootProps) {
+  return (
+    <nav
+      className="flex mx-2 flex-col gap-8 text-san-marino-50 dark:text-gray-50 dark:hover:text-gray-900"
+      {...props}
+    />
+  )
+}
